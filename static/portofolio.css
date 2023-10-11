@@ -1,0 +1,249 @@
+body {
+    background-color: #F6F6F6;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: rgb(49, 49, 49);
+}
+
+.navbar {
+    font-family: 'Barlow Condensed', sans-serif;
+    z-index: 1;
+    width: 100%;
+    background-color: #0A2472;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 0px 3px 0px gray;
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+
+.navbar>.porto {
+    color: #A6E1FA;
+    font-size: 25px;
+    margin: auto auto auto 30px;
+}
+
+.navbar>.porto>a{
+    text-decoration: none;
+    color: #A6E1FA;
+}
+
+
+.navbarUL {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 30px 0px 0px;
+}
+
+.navbarUL>li>a {
+    text-decoration: none;
+    color: #A6E1FA;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.navbarUL>li>a:hover {
+    color: white;
+}
+
+.profile {
+    width: 95%;
+    margin: 30px auto 0px auto;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px 0px gray; */
+}
+
+.about {
+    text-align: left;
+    margin-top: 100px;
+}
+
+.halo {
+    color: #4285F4;
+}
+
+.about>p {
+    font-size: 20px;
+}
+
+.cv {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+}
+
+.cv:hover {
+    background-color: #4285F4;
+    border: none;
+    color: white;
+}
+
+.download {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+.foto {
+    width: 100%;
+    height: 100%;
+}
+
+.project {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project>h1{
+    margin-bottom: 50px;
+}
+
+.ukuran {
+    width: 390;
+    height: 190px;
+    object-fit: cover;
+}
+
+.gambar{
+    position: relative;
+}
+.gambar>img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.isigambar{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+.isigambar:hover{
+    opacity: 1;
+}
+.isigambar>h3{
+    color: #4285F4;
+}
+.isigambar>p{
+    color: white;
+}
+
+.skill{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skill>h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skillisi{
+    margin: 10px;
+    padding-top: 30px;
+    width: 300px;
+    height: 190px;
+    border: 1px solid gray;
+    
+}
+
+.posisikolom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gambaricon{
+    width: 100px;
+    height: 100px;
+}
+
+.contact{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactisi{
+    width: 500px;
+    
+}
+
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: #F6F6F6;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
+
+.footerisi{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footerisi>p{
+    margin-top: 15px;
+}
+
+.listfooter{
+    list-style: none;
+    display: flex;
+}
+
+.linkfooter{
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+}
+.linkfooter:hover{
+    color: #4285F4;
+}
+
+.listfooter>li>a>img{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    
+}
+.listfooter>li>a>img:hover{
+    margin: 5px;
+    width: 42px;
+    height: 42px;
+}
